@@ -1,2 +1,10 @@
-# antahkarana_Demo
-Student Wellness Application - We borrow the five-sheath model (Taittiriya Upanishad) as a practical health stack. No metaphysics, no atman claims — just measurable wellbeing layers for students.
+# Antahkarana AI Backend
+© Conscious Bridge Labs, Bengaluru | Founder - Nagesh Jayanti
+
+## Quick Start
+pip install -r requirements.txt
+uvicorn app_full:app --reload
+
+## Deploy to Fly.io
+fly launch --name antahkarana-ai --region maa
+fly deploy
